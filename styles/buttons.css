@@ -1,0 +1,50 @@
+button {
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+
+.enter {
+    width: 174px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 21px 41px 22px;
+}
+
+.enter:hover {
+    color: #8E8E8E;
+}
+
+.registration {
+    width: 174px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.registration:hover {
+    color: #636262;
+}
+
+.registration-enter {
+    width: 92px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: #FF00D6;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login-enter {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}

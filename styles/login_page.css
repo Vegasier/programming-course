@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+    width: 228px;
+    margin-left: 72px;
+}
+
+label,
+input {
+    width: 100%;
+    height: 60px;
+}
+
+label:first-child {
+    margin-top: 59px;
+}
+
+input {
+    border-radius: 30px;
+    background: #8E8E8E url(../images/Line.svg) no-repeat 32px 40px;
+    font-family: inherit;
+    font-size: 20px;
+    color: inherit;
+    border: none;
+}
+
+
+.input-login {
+    background-color: black;
+}
+
+.span-name {
+    display: block;
+    color: #8E8E8E;
+    font-family: inherit;
+    font-size: 15px;
+    margin-left: 18px;
+}
+
+.login-enter {
+    margin-top: 35px;
+}
+
+.login-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 378px;
+    height: 390px;
+    object-fit: cover;
+    object-position: center;
+}
