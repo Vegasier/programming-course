@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вступление в программирование</title>
-    <link rel="preconnect" href="../https://rsms.me/">
-    <link rel="stylesheet" href="../https://rsms.me/inter/inter.css">
+    <title>Форма регистрации</title>
     <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/buttons.css" />
     <link rel="stylesheet" href="../styles/registration_page.css" />
@@ -13,12 +11,13 @@
 <body>
     <main>
         <h1 class="welcome-text">Давай знакомиться?</h1>
-        <form action="" method="get">
+        <form id="registration-form" action="../pages/login.html" method="get">
                 <label>
                     <input
                         type="text"
                         placeholder="эл.почта/телефон"
                         name="email-phone"
+                        required
                     />
                 </label>
                 <label>
@@ -26,6 +25,7 @@
                         type="password"
                         placeholder="придумайте пароль"
                         name="password"
+                        required
                     />
                     <span class="password">латинские буквы и символы</span>
                 </label>
@@ -34,14 +34,16 @@
                         type="text"
                         placeholder="Ваше имя"
                         name="name"
+                        required
                     />
                 </label>
-                <button type="button" class="registration-enter">Войти</button>
+                <button type="submit" class="registration-enter" disabled>Войти</button>
         </form>
         <img
         class="registration-image"
         src="../images/registration.svg"
         />
     </main>
+    <script src="../scripts/registration-form.js"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 .welcome-text {
     font-size: 27px;
     font-weight: 400;
-    font-family: inherit;
     color: black;
     margin-top: 41px;
-    margin-left: 51px;
+    margin-bottom: 29px;
+    text-align: center;
 }
 
 form {
@@ -12,8 +12,8 @@ form {
     flex-direction: column;
     gap: 29px;
     align-items: center;
-    width: 261px;
-    margin-left: 56px;
+    max-width: 261px;
+    margin: auto;
 }
 
 label,
@@ -22,14 +22,9 @@ input {
     height: 47px;
 }
 
-label:first-child {
-    margin-top: 29px;
-}
-
 input {
     border-radius: 20px;
     background-color: #8E8E8E;
-    font-family: inherit;
     font-size: 20px;
     color: inherit;
     border: none;
@@ -37,20 +32,22 @@ input {
 
 input::placeholder {
     color: white;
+    opacity: 0.7;
     font-size: 20px;
-    font-family: inherit;
     text-align: center;
 }
 
 .password {
     display: block;
     color: #8E8E8E;
-    font-family: inherit;
     font-size: 13px;
     text-align: center;
 }
 
 .registration-image {
     position: relative;
-    bottom: 80px;
+    z-index: -1;
+    max-width: 582px;
+    max-height: 632px;
+    margin-top: -80px;
 }

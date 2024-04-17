@@ -1,27 +1,27 @@
 .welcome-text {
     font-size: 28px;
     font-weight: 400;
-    font-family: Inter, sans-serif;
     color: black;
-    margin: 30px auto 42px;
+    margin-top: 128px;
     text-align: center;
-}
-
-.log-or-reg {
-    max-width: 256px;
-    max-height: 145px;
-    border-radius: 20px;
-    background-color: #D9D9D9;
-    text-align: center;
-    justify-content: center;
-    margin-left: 60px;
-    margin-right: 59px;
 }
 
 .welcome-image {
-    max-width: 711px;
-    max-height: 549px;
-    position: relative;
-    right: 57px;
-    top: 25px;
+    max-width: 375px;
+    max-height: 393px;
+}
+
+.choice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 51px;
+    margin-bottom: 98px;
+}
+
+.choice-text {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: 19px;
 }
