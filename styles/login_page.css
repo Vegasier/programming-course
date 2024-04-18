@@ -4,7 +4,6 @@ form {
     gap: 36px;
     align-items: center;
     max-width: 228px;
-    margin: auto;
 }
 
 label,
@@ -14,14 +13,14 @@ input {
 }
 
 label:first-child {
-    margin-top: 40px;
+    margin-top: 33px;
 }
 
 input {
     border-radius: 30px;
     background: #8E8E8E url("../images/Line.svg") no-repeat 32px 40px;
     font-size: 20px;
-    color: inherit;
+    color: white;
     border: none;
 }
 
@@ -29,18 +28,18 @@ input {
     background-color: black;
 }
 
-.span-name {
+.auth-data {
     display: block;
     color: #8E8E8E;
     font-size: 15px;
     margin-left: 20px;
 }
 
-.login-enter {
+.login-enter-button {
     margin-top: 35px;
 }
 
-.login-image {
+.login-page-image {
     max-width: 378px;
     max-height: 390px;
 }

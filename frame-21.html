@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Правильный ответ!</title>
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/frame-21_page.css" />
+    <link rel="stylesheet" href="styles/buttons.css" />
+</head>
+<body>
+    <main>
+        <p class="python-text">Вот кусок кода на языке Python, скажи, что он, по-твоему, сделает? </p>
+        <img
+            class="python-image"
+            src="images/python.svg"
+        />
+        <form class="frame16-test">
+            <label>
+                <input
+                    type="radio"
+                    name="answer"
+                    class="visually-hidden"
+                />
+                <span></span>
+                Запрашивает у пользователя имя и здоровается с ним
+            </label>
+            <label>
+                <input
+                    type="radio"
+                    name="answer"
+                    class="visually-hidden"
+                />
+                <span></span>
+                Печатает на экране сообщение “Здесь был name”
+            </label>
+            <label>
+                <input
+                    type="radio"
+                    name="answer"
+                    class="visually-hidden"
+                />
+                <span class="correct-answer"></span>
+                Печатает на экране сообщение ”Здесь был Вася”
+            </label>
+            <label>
+                <input
+                    type="radio"
+                    name="answer"
+                    class="visually-hidden"
+                />
+                <span></span>
+                Ничего не сделает
+            </label>
+        </form>
+        <div class="correct-answer-container">
+            <img
+                class="correct-answer-image"
+                src="images/correct-answer.svg"
+            />
+            <div class="text-button-container">
+                <p class="correct-text">Верно!</p>
+                <button type="button" class="frame21-page-button" onclick="redirectToFrame24()">Далее</button>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/redirect-buttons.js"></script>
+</body>
+</html>

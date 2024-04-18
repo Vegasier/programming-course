@@ -20,3 +20,15 @@ function redirectToFrame6() {
 function redirectToFrame11() {
     window.location.href = 'frame-11.html';
 }
+
+function redirectToTest() {
+    window.location.href = 'frame-16.html';
+}
+
+function redirectToFrame24() {
+    window.location.href = 'frame-24.html';
+}
+
+function redirectToFinish() {
+    window.location.href = 'finish.html';
+}

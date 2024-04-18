@@ -1,12 +1,11 @@
-.welcome-text {
+.start-text {
     font-size: 28px;
     font-weight: 400;
-    color: black;
     margin-top: 41px;
     margin-bottom: 40px;
 }
 
-.log-or-reg {
+.option-buttons-container {
     max-width: 256px;
     max-height: 145px;
     border-radius: 20px;
@@ -18,8 +17,6 @@
     margin: auto;
 }
 
-.welcome-image {
-    max-width: 711px;
-    max-height: 549px;
+.start-image {
     margin-top: 18px;
 }

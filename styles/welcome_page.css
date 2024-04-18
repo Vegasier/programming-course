@@ -1,14 +1,7 @@
-.welcome-text {
+.welcome-page-text {
     font-size: 28px;
     font-weight: 400;
-    color: black;
-    margin-top: 128px;
-    text-align: center;
-}
-
-.welcome-image {
-    max-width: 375px;
-    max-height: 393px;
+    margin-top: 122px;
 }
 
 .choice-container {
@@ -16,12 +9,10 @@
     flex-direction: column;
     align-items: center;
     gap: 51px;
-    margin-bottom: 98px;
 }
 
 .choice-text {
     font-size: 24px;
-    color: black;
     text-align: center;
     margin-top: 19px;
 }
