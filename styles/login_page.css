@@ -19,7 +19,7 @@ label:first-child {
 
 input {
     border-radius: 30px;
-    background: #8E8E8E url(../images/Line.svg) no-repeat 32px 40px;
+    background: #8E8E8E url("../images/Line.svg") no-repeat 32px 40px;
     font-size: 20px;
     color: inherit;
     border: none;
