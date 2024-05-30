@@ -1,0 +1,29 @@
+{
+  "name": "programming-course",
+  "version": "1.0.0",
+  "description": "Первый самостоятельный (неучебный) проект с использованием скриптов (смена страниц при прокрутке колеса мыши вниз, переход на другие страницы при нажатии на кнопки).\r Вёрстка производилась с нуля по макету.\r Ссылка на Github Pages: https://vegasier.github.io/programming-course/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './src/**/*.{html,css,js}'",
+    "format": "prettier --write './src/**/*.{html,css,js}'",
+    "lint": "stylelint './src/**/*.css'",
+    "lintfix": "stylelint './src/**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "del": "^6.1.1",
+    "gulp": "^5.0.0",
+    "gulp-concat-css": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.6.1",
+    "build": "gulp build",
+    "dev": "gulp",
+    "fixAndBuild": "npm run fixAll && npm run build"
+  }
+}

@@ -1,0 +1,136 @@
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-family: Inter, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.startpage-enter-button {
+  min-width: 174px;
+  min-height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 21px 41px 22px;
+}
+
+.startpage-enter-button:hover {
+  color: #8e8e8e;
+}
+
+.startpage-registration-button {
+  min-width: 174px;
+  min-height: 40px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.startpage-registration-button:hover {
+  color: #636262;
+}
+
+.registration-page-enter-button {
+  min-width: 92px;
+  min-height: 33px;
+  border-radius: 20px;
+  background-color: #ff00d6;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.login-page-enter-button {
+  min-width: 100px;
+  min-height: 35px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.welcome-page-button {
+  min-width: 228px;
+  min-height: 60px;
+  background-color: #d9d9d9;
+  color: black;
+  font-size: 20px;
+}
+
+.frame4-page-begin-button {
+  min-width: 201px;
+  min-height: 47px;
+  font-size: 17px;
+  position: relative;
+  bottom: 136px;
+}
+
+.frame4-page-exit-button {
+  min-width: 116px;
+  min-height: 28px;
+  background-color: #d9d9d9;
+  font-size: 15px;
+  position: relative;
+  bottom: 122px;
+}
+
+.frame10-page-websearching-button {
+  min-width: 234px;
+  min-height: 62px;
+  font-size: 17px;
+  display: inline;
+  margin: auto;
+}
+
+.frame14-page-testing-button {
+  min-width: 192px;
+  min-height: 34px;
+  font-size: 15px;
+  position: relative;
+  bottom: 65px;
+}
+
+.incorrect-button {
+  /* Фреймы 19, 22 и 26 */
+  max-width: 134px;
+  min-height: 76px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fa0a0a;
+  font-size: 15px;
+  text-shadow:
+    -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+  margin-top: 116px;
+  margin-right: 135px;
+}
+
+.frame21-page-button {
+  min-width: 76px;
+  min-height: 30px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  color: black;
+  font-size: 15px;
+}
+
+.frame24-page-button {
+  min-width: 97px;
+  min-height: 34px;
+  font-size: 15px;
+  position: relative;
+  bottom: 98px;
+}
+
+.finish-page-button {
+  min-width: 228px;
+  min-height: 60px;
+  font-size: 17px;
+  margin-top: -14px;
+}
